@@ -1,0 +1,285 @@
+body {
+	font-size: 12px;
+	font-family: "Lucida Grande", Verdana, Arial, "Helvetica Neue", sans-serif;
+	color: white;
+	background-color: #191919;
+	background-image: url('../images/background.jpg');
+	background-repeat: repeat-x;
+}
+#top {
+	background-color: transparent;
+	width: 100%;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	top:0px;
+	padding-top: 14px;
+	height:70px;
+	position: fixed;
+	background-image: url('../images/top.png');
+	background-repeat: repeat-x;
+	z-index:3;
+	
+}
+#top .header {
+	width: 840px;
+	margin: auto;
+	padding-top:10px;
+	background-image: url('../images/alanapost.png');
+	background-repeat: no-repeat;
+}
+#top .header p {
+	letter-spacing: 1px;
+	font-size: 18px;
+	color: white;
+	margin:0;
+	padding:0;
+	visibility: hidden;
+}
+#contact {
+	width:840px;
+	margin:auto;
+}
+#contact a:hover {
+	padding-top:30px;
+}
+#contact a {
+	letter-spacing: 1.5px;
+	padding: 5px;
+	padding-top: 20px;
+	margin-top:-5px;
+	color: white;
+	background-color: #850e10;
+	text-decoration:none;
+	position:fixed;
+	z-index:2;
+}
+
+#container {
+	width: 840px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:60px;
+}
+
+#description {
+	margin-bottom: -10px;
+	margin-top:0px;
+	width:100%;
+	float:left;
+	clear:right;
+}
+#description p{
+	text-align: justify;
+	color: #9f9f9f;
+	line-height: 140%;
+	font-size: 12px;
+	float:left;
+}
+
+#description a {
+	color: white;
+	text-decoration:none;
+}
+
+#description a:hover {
+	background-color: black;
+	padding-top:2px;
+	padding-bottom:2px;
+	color: white;
+}
+
+#description img {
+	margin-bottom:-2px;
+}
+
+#hi {
+	float:right;
+	width:100%;
+	margin-top:-35px;
+	margin-bottom:-60px;
+}
+#hi p {
+	text-align:right;
+	font-style: italic;
+	font-size: 50px;
+	font-family: "Times New Roman", Times, serif, Georgia;
+	letter-spacing: 2px;
+}
+#pullquote {
+	float:right;
+	width:100%;
+	margin-right:0px;
+	margin-top:10px;
+	margin-bottom: 0px;
+}
+#pullquote p {
+	float:right;
+	margin:auto;
+	text-align: center;
+	font-style: italic;
+	font-size: 50px;
+	font-family: "Times New Roman", Times, serif, Georgia;
+	letter-spacing: 2px;
+
+}
+#pullquote a {
+	color: #601917;
+	text-decoration:none;	
+}
+#content {
+	margin-top: 30px;
+}
+#images {
+	border-bottom-width: 1px;
+	border-bottom-color: #6d6d6d;
+	border-bottom-style: solid;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	border-top-width: 1px;
+	border-top-color: #6d6d6d;
+	border-top-style: solid;
+	margin-right: auto;
+	float: left;
+	margin-left: auto;
+	width: 840px;
+	visibility: visible;
+	position:relative;
+	clear:both;
+}
+
+#images .left{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 150px;
+	width: 390px;
+	float: left;
+	border-color: white;
+	border-width: 10px;
+	border-style: solid;
+	margin-right: 20px;
+	margin-left: 0px;
+	display: inline;
+	list-style-type: none;
+	padding:0;
+	overflow-y:hidden;
+}
+
+#images .right{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-color: white;
+	border-width: 10px;
+	border-style: solid;
+	float: right;
+	height: 150px;
+	width: 390px;
+	padding:0;
+	overflow-y:hidden;
+}
+
+#images .right:hover {
+	border-color: gray;
+	border-width:10px;
+	border-style:solid;
+}
+
+#images .left:hover {
+	border-color: gray;
+	border-width:10px;
+	border-style:solid;
+}
+
+#images .overlay-left:hover {
+	border:0;
+	overflow:hidden;
+}
+
+#images .overlay-right:hover {
+	border:0;
+	overflow:hidden;
+}
+
+#images .overlay-left {
+	background-image:url('../images/bg.png');
+	background-repeat:repeat;
+	position: relative;
+ 	width:370px;
+  	height:15px;
+  	margin-left:0;
+  	margin-top:-38px;
+  	margin-bottom:0;
+  	padding:10px;
+	font-size:14px;
+	overflow:hidden;
+	float:left;
+}
+
+#images .overlay-right {
+	background-image:url('../images/bg.png');
+	background-repeat:repeat;
+	position: relative;
+ 	width:370px;
+  	height:15px;
+  	margin-left:0;
+  	margin-bottom:0;
+  	margin-top:-38px;
+  	padding:10px;
+	font-size:14px;
+	overflow:hidden;
+	float:right;
+}
+
+#test p {
+	line-height: 130%;
+	color: #292929;
+	text-align: justify;           
+	font-family: Georgia, serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 2em;
+	clear:both;
+	color: #3b3b3b;
+}
+
+#test p:hover {
+	color: white;
+}
+#test blockquote {
+	margin-top: 0px;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	color: #b9b9b9;
+	font-family: Cambria, serif;
+	font-size: 16px;
+	font-style: italic;
+}
+
+#made-with {
+	float:right;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: -37px;
+}
+#footer {
+	background-color:white;
+	color:black;
+	text-align:right;
+	font-size: 10px;
+	text-align:center;
+	width:840px;
+	margin:auto;
+	vertical-align:bottom;
+	float:none;
+	padding:10px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: auto;
+}
